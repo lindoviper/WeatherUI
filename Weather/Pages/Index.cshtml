@@ -1,0 +1,92 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "";
+}
+
+<body>
+    <div class="container">
+
+        <div class="row">
+            <div class="btn-group">
+
+                <!-- Basic dropdown -->
+                <a class="btn btn-primary dropdown-toggle mr-4" type="button" data-toggle="dropdown" aria-haspopup="true"
+                   aria-expanded="false">Select City</a>
+
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Durban</a>
+                    <a class="dropdown-item" href="#">Johannesburg</a>
+                    <a class="dropdown-item" href="#">Cape Town</a>
+                    <a class="dropdown-item" href="#">Bloemfontein</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-8 weather mx-auto">
+                <div class="weather-header">
+                    <h1 id="city" class="text-center display">Durban</h1>
+
+                </div>
+                <div class="row">
+                    <div id="Desc" class="col-4 text-center">
+                        <i id="icon" class="wi wi-day-cloudy"></i>
+                        <p id="forecast">Sunny</p>
+
+                    </div>
+                    <div id="temperature" class="col-4 text-right">
+                        25
+                        <i id="icon" class="wi wi-celsius"></i>
+                    </div>
+
+                </div>
+                <div class="weather-body">
+                    <div class="row">
+                        <div class="Humidity col-sm-4 text-center">
+                            <i id="icon-rain" class="wi wi-raindrops"></i>
+                            <span>
+                                Humidity
+                            </span>
+                        </div>
+                        <div class="Wind col-sm-4 text-center">
+                            <i id="icon-rain" class="wi wi-day-light-wind"></i>
+                            <span>
+                                Wind Speed
+                            </span>
+                        </div>
+                        <div class="Wind-degree col-sm-4 text-center">
+                            <i id="icon-rain" class="wi wi-direction-up"></i>
+                            <span>
+                                Wind Degree
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="Humidity-data col-sm-4 text-center">
+                            <span>
+                                40%
+                            </span>
+                        </div>
+                        <div class="Wind-data col-sm-4 text-center">
+                            <span>
+                                10 m/h
+                            </span>
+                        </div>
+                        <div class="Wind-degree-data col-sm-4 text-center">
+                            <span>
+                                75
+                            </span>
+                            <i id="icon-deg" class="wi wi-degrees"></i>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+</body>

@@ -1,0 +1,45 @@
+﻿<Properties StartupConfiguration="{76862D90-D9FF-483D-973C-2286E437070C}|Default">
+  <MonoDevelop.Ide.ItemProperties.Weather PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Weather/wwwroot/lib/jquery/dist/jquery.js">
+    <Files>
+      <File FileName="Weather/Pages/Index.cshtml" Line="16" Column="1" />
+      <File FileName="Weather/wwwroot/css/site.css" Line="148" Column="1" />
+      <File FileName="Weather/Pages/Shared/_Layout.cshtml" Line="20" Column="31" />
+      <File FileName="Weather/wwwroot/lib/jquery/dist/jquery.js" Line="33" Column="13" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Weather" expanded="True">
+            <Node name="Weather" expanded="True">
+              <Node name="Pages" expanded="True" />
+              <Node name="wwwroot" expanded="True">
+                <Node name="lib" expanded="True">
+                  <Node name="jquery" expanded="True">
+                    <Node name="dist" expanded="True">
+                      <Node name="jquery.js" selected="True" />
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State name="__root__">
+          <Node name="Weather" expanded="True" selected="True" />
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
