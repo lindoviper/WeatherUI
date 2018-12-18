@@ -8,25 +8,19 @@
     <div class="container">
 
         <div class="row">
-            <div class="btn-group">
-
-                <!-- Basic dropdown -->
-                <a class="btn btn-primary dropdown-toggle mr-4" type="button" data-toggle="dropdown" aria-haspopup="true"
-                   aria-expanded="false">Select City</a>
-
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Durban</a>
-                    <a class="dropdown-item" href="#">Johannesburg</a>
-                    <a class="dropdown-item" href="#">Cape Town</a>
-                    <a class="dropdown-item" href="#">Bloemfontein</a>
-                </div>
-            </div>
+            <label>Select City</label>
+            <select class="citylist">
+                <option value="Durban">Durban</option>
+                <option value="Johannesburg">Johannesburg</option>
+                <option value="Cape Town">Cape Town</option>
+            </select>
         </div>
+
         <div class="row">
 
             <div class="col-8 weather mx-auto">
                 <div class="weather-header">
-                    <h1 id="city" class="text-center display">Durban</h1>
+                    <h1 id="city" class="text-center display"></h1>
 
                 </div>
                 <div class="row">

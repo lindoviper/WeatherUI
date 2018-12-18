@@ -63,11 +63,11 @@ a.navbar-brand {
 }
 
 .Humidity, .Wind, .Wind-degree {
-    /*border-top: 1px solid white;*/
-    /*border-bottom: 1px solid white;*/
+    /*border-top: 1px solid white;
+    border-bottom: 1px solid white;*/
     font-size: 15px;
     color: white;
-    border-radius: 20px;
+    /*border-radius: 20px;*/
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
